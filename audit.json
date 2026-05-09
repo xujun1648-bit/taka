@@ -1,0 +1,11 @@
+{
+  "source": "/Users/taka/Desktop/Panda Remit Korea – Big Update.pptx",
+  "language": "English",
+  "step_count": 10,
+  "checks": [
+    "All steps are based on the source PPTX: download, registration, KYC, bank account linking, payment security, exchange-rate review, order creation, payment, and completion.",
+    "Claims such as “0 fees” and “3–5 minutes” were adjusted into safer operational wording: follow the app’s latest displayed fee, rate, and delivery-time information.",
+    "First-time user reminders were added for Korean mobile number access, personal ID accuracy, clear ID photos, own bank account usage, recipient detail checks, and payment-password security.",
+    "No extra promises were added regarding promotions, fixed rates, fixed fees, guaranteed delivery time, or guaranteed transfer success."
+  ]
+}

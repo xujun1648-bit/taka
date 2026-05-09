@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panda Remit Korea First-Time User Guide</title>
+  <style>
+    :root { --green:#00A66C; --dark:#12231D; --muted:#5E6A66; --line:#DCE8E3; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--dark); font-family:Arial, Helvetica, sans-serif; background:#F8FAFB; line-height:1.6; }
+    header { background:linear-gradient(135deg,#008D62,#00B876); color:white; padding:54px max(24px,calc((100vw - 1100px)/2)) 46px; }
+    header h1 { margin:0; max-width:920px; font-size:clamp(36px,6vw,64px); line-height:1.06; letter-spacing:0; }
+    header p { max-width:800px; margin:18px 0 0; color:#E9FFF5; font-size:19px; }
+    nav { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
+    nav a { color:#005437; background:white; text-decoration:none; padding:10px 16px; border-radius:8px; font-weight:700; }
+    main { max-width:1380px; margin:0 auto; padding:34px 24px 72px; }
+    .notice,.audit { background:white; border:1px solid var(--line); border-left:5px solid var(--green); border-radius:8px; padding:20px 24px; margin-bottom:22px; }
+    .notice strong,.audit strong { color:#007A50; }
+    .step { display:grid; grid-template-columns:minmax(340px,.72fr) minmax(520px,1.28fr); gap:34px; align-items:center; background:white; border:1px solid var(--line); border-radius:8px; padding:28px; margin:22px 0; }
+    .kicker { color:var(--green); font-weight:800; letter-spacing:0; }
+    h2 { margin:8px 0 12px; font-size:clamp(26px,4vw,38px); line-height:1.18; letter-spacing:0; }
+    p { margin:0 0 12px; color:#2E3B36; font-size:18px; }
+    ul { margin:12px 0 0; padding-left:21px; color:var(--muted); }
+    figure { margin:0; }
+    figure img { display:block; width:100%; max-height:min(86vh,920px); object-fit:contain; background:#F7F8FB; border:1px solid var(--line); border-radius:8px; }
+    .video { margin-top:34px; background:white; border:1px solid var(--line); border-radius:8px; padding:24px; }
+    .video img { width:100%; border-radius:8px; border:1px solid var(--line); background:#F7F8FB; }
+    footer { color:var(--muted); font-size:14px; margin-top:24px; }
+    @media (max-width:900px) { .step { grid-template-columns:1fr; padding:18px; gap:20px; } figure img { max-height:none; } header { padding-top:38px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Panda Remit Korea First-Time User Guide</h1>
+    <p>A step-by-step guide for overseas users sending money from South Korea with Panda Remit for the first time: download, registration, KYC, Korean bank account linking, order creation, payment, and tracking.</p>
+    <nav>
+      <a href="#steps">View guide</a>
+      <a href="#video">View video tutorial</a>
+      <a href="panda-remit-korea-first-use-guide-en.pdf">Download PDF</a>
+      <a href="panda-remit-korea-first-use-video-en.gif">Download GIF video</a>
+    </nav>
+  </header>
+  <main>
+    <section class="notice">
+      <strong>Before you start:</strong> Use your own Korean mobile number, valid ID information, and Korean bank account. Exchange rates, fees, available destinations, and delivery times may change depending on the transfer corridor, banking systems, and compliance review. Always follow the latest information shown in the app when placing an order.
+    </section>
+    <section id="steps">
+            <article class="step">
+              <div class="copy">
+                <span class="kicker">Step 01 · Get Started</span>
+                <h2>Download the Panda Remit app</h2>
+                <p>Search for “Panda Remit” on the App Store or Google Play, then download the app for free.</p>
+                <ul><li>Use a phone that can receive SMS verification codes from a Korean mobile number.</li></ul>
+              </div>
+              <figure>
+                <img src="assets/normalized-image1.png" alt="Download the Panda Remit app screenshot">
+              </figure>
+            </article>
+            
+            <article class="step">
+              <div class="copy">
+                <span class="kicker">Step 02 · Registration</span>
+                <h2>Sign up with a Korean mobile number</h2>
+                <p>Open the app, register with your Korean mobile number, and set your login password.</p>
+                <ul><li>Make sure the number is active and avoid reusing passwords from other platforms.</li></ul>
+              </div>
+              <figure>
+                <img src="assets/normalized-image2.png" alt="Sign up with a Korean mobile number screenshot">
+              </figure>
+            </article>
+            
+            <article class="step">
+              <div class="copy">
+                <span class="kicker">Step 03 · Identity Check</span>
+                <h2>Complete KYC verification</h2>
+                <p>Follow the in-app instructions to upload your Korean ID information and personal details. Panda Remit works with GLN to support secure verification and compliance checks.</p>
+                <ul><li>Use your own valid information. Keep ID photos clear, complete, and unobstructed.</li></ul>
+              </div>
+              <figure>
+                <img src="assets/normalized-image3.png" alt="Complete KYC verification screenshot">
+              </figure>
+            </article>
+            
+            <article class="step">
+              <div class="copy">
+                <span class="kicker">Step 04 · Profile Details</span>
+                <h2>Review your personal information</h2>
+                <p>Continue following the on-screen instructions and carefully check your name, ID details, and contact information before submitting.</p>
+                <ul><li>Incorrect or inconsistent information may cause verification failure or transfer delays.</li></ul>
+              </div>
+              <figure>
+                <img src="assets/normalized-image4.png" alt="Review your personal information screenshot">
+              </figure>
+            </article>
+            
+            <article class="step">
+              <div class="copy">
+                <span class="kicker">Step 05 · Payment Source</span>
+                <h2>Link your Korean bank account</h2>
+                <p>Connect your own Korean bank account and complete the 1 KRW verification. This account will be used as your payment source.</p>
+                <ul><li>The source deck states that no fee applies for this verification. Always follow the latest information shown in the app.</li></ul>
+              </div>
+              <figure>
+                <img src="assets/normalized-image5.png" alt="Link your Korean bank account screenshot">
+              </figure>
+            </article>
+            
+            <article class="step">
+              <div class="copy">
+                <span class="kicker">Step 06 · Final Setup</span>
+                <h2>Set your payment password and address</h2>
+                <p>Set your payment password and complete address verification so your account is ready for payment authorization.</p>
+                <ul><li>Keep your payment password private and never share it with anyone.</li></ul>
+              </div>
+              <figure>
+                <img src="assets/normalized-image6.png" alt="Set your payment password and address screenshot">
+              </figure>
+            </article>
+            
+            <article class="step">
+              <div class="copy">
+                <span class="kicker">Step 07 · Rates and Fees</span>
+                <h2>Check exchange rates, fees, and destinations</h2>
+                <p>Choose the destination country or region and enter the transfer amount to review the exchange rate, receiving amount, and fee. Supported destinations include Vietnam, Indonesia, the Philippines, Thailand, Japan, the USA, Europe, and more.</p>
+                <ul><li>Rates, fees, and available destinations may change. The actual details shown in the app at the time of order should be treated as final.</li></ul>
+              </div>
+              <figure>
+                <img src="assets/normalized-image7.png" alt="Check exchange rates, fees, and destinations screenshot">
+              </figure>
+            </article>
+            
+            <article class="step">
+              <div class="copy">
+                <span class="kicker">Step 08 · Create Order</span>
+                <h2>Enter recipient information</h2>
+                <p>Fill in the recipient’s name, bank account, and other required details, then confirm everything before creating the transfer order.</p>
+                <ul><li>Use the name format required by the receiving bank. Incorrect account details may cause rejection or delays.</li></ul>
+              </div>
+              <figure>
+                <img src="assets/normalized-image8.png" alt="Enter recipient information screenshot">
+              </figure>
+            </article>
+            
+            <article class="step">
+              <div class="copy">
+                <span class="kicker">Step 09 · Payment</span>
+                <h2>Pay from your linked bank account</h2>
+                <p>Complete the payment using your linked Korean bank account. After payment, you can check the order status and confirmation details in the app.</p>
+                <ul><li>The source deck mentions that transfers usually arrive in 3–5 minutes. Actual delivery time depends on the corridor, bank systems, and risk review.</li></ul>
+              </div>
+              <figure>
+                <img src="assets/normalized-image9.png" alt="Pay from your linked bank account screenshot">
+              </figure>
+            </article>
+            
+            <article class="step">
+              <div class="copy">
+                <span class="kicker">Step 10 · Completion</span>
+                <h2>Track processing and completion</h2>
+                <p>Once payment is confirmed, processing starts. Most transfers can complete quickly, but the final status should always be checked in the app.</p>
+                <ul><li>If a transfer takes longer than expected, check the order status first and then contact Panda Remit support if needed.</li></ul>
+              </div>
+              <figure>
+                <img src="assets/normalized-image10.png" alt="Track processing and completion screenshot">
+              </figure>
+            </article>
+            </section>
+    <section id="video" class="video">
+      <span class="kicker">Video Tutorial</span>
+      <h2>Quick first-use walkthrough</h2>
+      <p>The GIF below plays automatically and can be shared directly with first-time Panda Remit users in Korea.</p>
+      <img src="panda-remit-korea-first-use-video-en.gif" alt="Panda Remit Korea first-time user video tutorial">
+    </section>
+    <section class="audit">
+      <strong>Pre-publishing content review:</strong>
+      <ul><li>All steps are based on the source PPTX: download, registration, KYC, bank account linking, payment security, exchange-rate review, order creation, payment, and completion.</li><li>Claims such as “0 fees” and “3–5 minutes” were adjusted into safer operational wording: follow the app’s latest displayed fee, rate, and delivery-time information.</li><li>First-time user reminders were added for Korean mobile number access, personal ID accuracy, clear ID photos, own bank account usage, recipient detail checks, and payment-password security.</li><li>No extra promises were added regarding promotions, fixed rates, fixed fees, guaranteed delivery time, or guaranteed transfer success.</li></ul>
+    </section>
+    <footer>Prepared from the source file “Panda Remit Korea – Big Update.pptx”. This guide is for user education only and does not replace the latest in-app business rules, fee information, exchange rates, compliance notices, or transfer status.</footer>
+  </main>
+</body>
+</html>
